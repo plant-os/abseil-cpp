@@ -154,7 +154,7 @@ cc_test(
         "//absl:msvc_compiler": [],
         "//absl:clang-cl_compiler": [],
         "//absl:wasm": [],
-        "//conditions:default": ["-pthread"],
+        "//conditions:default": [],
     }) + ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":failure_signal_handler",

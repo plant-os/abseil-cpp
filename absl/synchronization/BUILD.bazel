@@ -93,7 +93,7 @@ cc_library(
         "//absl:msvc_compiler": [],
         "//absl:clang-cl_compiler": [],
         "//absl:wasm": [],
-        "//conditions:default": ["-pthread"],
+        "//conditions:default": [],
     }) + ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":graphcycles_internal",
